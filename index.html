@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Galaxy | Football Shop</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+    .image-box {
+        overflow: hidden;
+    }
+
+    .product-image {
+        height: 220px;
+        width: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .card:hover .product-image {
+        transform: scale(1.1);
+    }
+    </style>
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">SOCCER GALAXY</a>
+            <span class="text-white">Your Soccer Essentials</span>
+        </div>
+    </nav>
+
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-5 fw-bold">Welcome to Soccer Galaxy</h1>
+            <p class="lead mb-0">Discover our collection of everyday soccer essentials</p>
+        </div>
+    </header>
+
+    <main class="container py-5">
+        <h2 class="text-center fw-bold mb-4">Our Products</h2>
+
+        <div class="row g-4">
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <div class="image-box">
+                        <img src="Ball.jpg.avif" class="img-fluid product-image" alt="UCL 26/27 ball">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">UCL 26/27 Ball</h5>
+                        <p class="card-text fw-bold">R 599.99</p>
+                        <button class="btn btn-success mt-auto">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <div class="image-box">
+                        <img src="Boots.jpg" class="img-fluid product-image" alt="Soccer boots">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Soccer Boots</h5>
+                        <p class="card-text fw-bold">R 1,499.99</p>
+                        <button class="btn btn-success mt-auto">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <div class="image-box">
+                        <img src="Kit.jpeg" class="img-fluid product-image" alt="Manchester United home kit">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Manchester United 26/27 Home Kit</h5>
+                        <p class="card-text fw-bold">R 1,699.99</p>
+                        <button class="btn btn-success mt-auto">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <div class="image-box">
+                        <img src="Shinguards.jpg" class="img-fluid product-image" alt="Shin guards">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Shin Guards</h5>
+                        <p class="card-text fw-bold">R 249.99</p>
+                        <button class="btn btn-success mt-auto">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <div class="image-box">
+                        <img src="Gloves.jpg" class="img-fluid product-image" alt="Goalkeeper gloves">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Goalkeeper Gloves</h5>
+                        <p class="card-text fw-bold">R 449.99</p>
+                        <button class="btn btn-success mt-auto">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <div class="image-box">
+                        <img src="Shorts.avif" class="img-fluid product-image" alt="Soccer training shorts">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Soccer Training Shorts</h5>
+                        <p class="card-text fw-bold">R 349.99</p>
+                        <button class="btn btn-success mt-auto">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <div class="image-box">
+                        <img src="Socks.jpeg" class="img-fluid product-image" alt="Football socks">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Football Socks</h5>
+                        <p class="card-text fw-bold">R 149.99</p>
+                        <button class="btn btn-success mt-auto">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <div class="image-box">
+                        <img src="Bib.jpg" class="img-fluid product-image" alt="Training bib">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Training Bib</h5>
+                        <p class="card-text fw-bold">R 99.99</p>
+                        <button class="btn btn-success mt-auto">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <div class="image-box">
+                        <img src="Bootbag.jpeg" class="img-fluid product-image" alt="Boot bag">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Boot Bag</h5>
+                        <p class="card-text fw-bold">R 399.99</p>
+                        <button class="btn btn-success mt-auto">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <div class="image-box">
+                        <img src="Bottle.jpeg" class="img-fluid product-image" alt="Manchester United water bottle">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Manchester United Water Bottle</h5>
+                        <p class="card-text fw-bold">R 229.99</p>
+                        <button class="btn btn-success mt-auto">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-white border-top py-4">
+        <div class="container">
+            <div class="row align-items-center g-3">
+
+                <div class="col-12 col-md-2 text-center">
+                    <img src="Logo.jpeg" class="img-fluid" style="max-width: 110px;" alt="Soccer Galaxy logo">
+                </div>
+
+                <div class="col-12 col-md-10">
+                    <h5 class="mb-3">Get in Touch</h5>
+                    <form class="row g-2 align-items-end">
+                        <div class="col-12 col-md-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your name">
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Your number">
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <button type="button" class="btn btn-success w-100">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <p class="text-center small text-muted mt-4 mb-0">&copy; 2026 Soccer Galaxy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
